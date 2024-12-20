@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f9;
+  background-image:url('https://img.freepik.com/free-photo/coffee-cup-with-coffee-beans-coffee-powder-beige-background_23-2148028180.jpg?t=st=1733392090~exp=1733395690~hmac=efe92743e54a334f3502b8fe8602bd9c8fe5955dedcaef3978f8533cf9ab05bb&w=996');
+  background-size:cover;
+  background-repeat:no-repeat;
+  padding-bottom:73px;
+  
+}
+
+.container {
+  max-width: 400px;
+  padding:10px 50px 30px 30px;
+  box-shadow:2px 4px 6px black;
+  margin:110px 0px 0 800px;
+  background-image: linear-gradient(to right,rgb(250,214,165,0.7),rgb(253,245,230,0.6));
+}
+
+h1 {
+  text-align: center;
+  color:#3d2b1f;
+}
+
+ input[type="text"],input[type="email"],input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-top:20px;
+  border:none;
+  border-bottom:2px solid black;
+  background-color:transparent;
+  color:black;
+  font-weight:bold;
+  font-size:14px;
+}
+
+input::placeholder{
+  color:black;
+}
+
+.main{
+   display:flex;
+   gap:40px;
+   margin-top:30px;
+
+}
+
+.register p{
+   margin-left:60px;
+   margin-top:-3px;
+   font-size:17px;
+
+}
+
+.log a{
+   margin-left:25px;
+   color:black;
+   text-decoration:none;
+   font-size:17px;
+}
+
+
+
+.reg {
+  display: inline-block;
+  text-decoration: none;
+  background-color:#3d2b1f;
+  color: white; 
+  width:30%;
+  padding: 10px 20px;
+  font-size: 14px; 
+  text-align: center; 
+  transition: background-color 0.3s ease;
+  margin:10px 0 0 33%;
+  cursor:pointer;
+
+}
+
+.reg:hover {
+  background-color:#704214; 
+}
+
